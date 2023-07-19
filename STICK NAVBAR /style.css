@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+
+}
+.topcontainer{
+    background-image: url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    color: yellow;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.text{
+    margin: 50px 5%;
+
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;width: 100%;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+ .navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: aqua;
+ }
+
+.navbar ul li :hover{
+    color: blue;
+}
+
+.active{
+    background-color: burlywood;
+}

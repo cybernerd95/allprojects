@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: aqua;
+    
+}
+.form{
+    margin: 5px;
+    align-content: center;
+    background-color: red;
+    padding: 13px;
+    border-radius: 20px ;
+    box-shadow: 7px rgba(0, 0,0, 0.5);
+
+}
+#input-container{
+    display: flex;
+    justify-content: center;
+    height: 1cm;
+}
+
+.input{
+    display: block;
+    text-align: center;
+    border: solid 2px red;
+    color: green;
+}
+.input::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+.button{
+    width: 50%;
+    color: black;
+    border-radius: 8px;
+    margin: 20px;
+    cursor:pointer;
+}
+.button:hover{
+    filter: brightness(0.9);
+}

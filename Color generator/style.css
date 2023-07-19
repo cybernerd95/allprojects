@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.colorcontainer{
+    background-color: yellow;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid blue ;
+    text-shadow: 2px 2px 4px rgba(0, 0,0, 0.3);
+
+}
